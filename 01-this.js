@@ -13,7 +13,7 @@ function myFunction(){
 };
 
 // Ao passar o "NEW" a gente transforma uma função em um objeto (Constructor);
-//console.log(new myFunction());
+console.log(new myFunction());
 
 /**********************************************************************************/
 
@@ -26,9 +26,9 @@ const myArrowFunction = () => {
     this.name = 'Victor Guirra'
 };
 
-//console.log(myArrowFunction());
+console.log(myArrowFunction());
 
-//console.log(this);
+console.log(this);
 
 /**********************************************************************************/
 
