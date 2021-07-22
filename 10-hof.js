@@ -71,3 +71,13 @@ const map = array.map(product => (
 ));
 
 console.log({ map });
+
+/*
+    Filter => Filtrar um array; Irá retornar
+    um novo array contendo apenas os elementos
+    que satisfaçam a condição passada (return === true).
+*/
+
+const filter = array.filter(product => product.quantity >= 2);
+
+console.log({ filter });
