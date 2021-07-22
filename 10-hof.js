@@ -63,11 +63,11 @@ console.log({ every1, every2, every3 });
     quantidade de posições do array original;
 */
 
-const map = array.map(product => {
-    return {
+const map = array.map(product => (
+    {
         ...product,
         total: product.price * product.quantity,
     }
-});
+));
 
 console.log({ map });
