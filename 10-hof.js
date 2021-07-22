@@ -26,3 +26,30 @@ console.log(find);
 const findIndex = array.findIndex((product) => product.name === 'Magic Mouse');
 
 console.log(findIndex);
+
+/*
+    Some => Verifica se ALGUM elemento
+    do array satisfaz a condição passada.
+
+    Caso algum elemento satisfaça, retorna true,
+    senão, retorna false (Retorno Boolean);
+*/
+
+const some1 = array.some(product => product.title === 'Ipad Pro');
+const some2 = array.some(product => product.quantity > 3);
+
+console.log({ some1, some2 });
+
+/*
+    Every => Verifica se TODOS elemento
+    do array satisfaz a condição passada.
+
+    Caso algum elemento satisfaça, retorna true,
+    senão, retorna false (Retorno Boolean);
+*/
+
+const every1 = array.every(product => product.title === 'Ipad Pro');
+const every2 = array.every(product => product.quantity > 3);
+const every3 = array.every(product => product.price > 500);
+
+console.log({ every1, every2, every3 });
