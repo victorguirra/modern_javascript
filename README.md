@@ -1,1 +1,1 @@
-# Modern Javascipt
+# Modern Javascript
