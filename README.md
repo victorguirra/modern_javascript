@@ -4,8 +4,6 @@
 
 <h2 align="center">The Modern Javascript with EcmaScript</h1>
 
----
-
 <p align="center">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/victorguirra/modern_javascript">
 
