@@ -4,7 +4,6 @@ const array = [
     { name: 'Magic Mouse', price: 1000, quantity: 5 },
 ];
 
-
 /* 
     Find => Buscar alguma coisa dentro do array;
 
