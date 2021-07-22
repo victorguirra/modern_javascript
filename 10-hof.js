@@ -31,7 +31,7 @@ console.log(findIndex);
     Some => Verifica se ALGUM elemento
     do array satisfaz a condição passada.
 
-    Caso algum elemento satisfaça, retorna true,
+    Caso ALGUM elemento satisfaça, retorna true,
     senão, retorna false (Retorno Boolean);
 */
 
@@ -44,7 +44,7 @@ console.log({ some1, some2 });
     Every => Verifica se TODOS elemento
     do array satisfaz a condição passada.
 
-    Caso algum elemento satisfaça, retorna true,
+    Caso TODOS elementos satisfaçam, retorna true,
     senão, retorna false (Retorno Boolean);
 */
 
@@ -53,3 +53,21 @@ const every2 = array.every(product => product.quantity > 3);
 const every3 = array.every(product => product.price > 500);
 
 console.log({ every1, every2, every3 });
+
+/*
+    Map => Criar um novo array baseado em
+    um array anterior, porém com alguma
+    alteração que queiramos fazer;
+
+    Return do map é um array com a mesma
+    quantidade de posições do array original;
+*/
+
+const map = array.map(product => {
+    return {
+        ...product,
+        total: product.price * product.quantity,
+    }
+});
+
+console.log({ map });
