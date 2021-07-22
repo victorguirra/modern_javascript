@@ -81,3 +81,21 @@ console.log({ map });
 const filter = array.filter(product => product.quantity >= 2);
 
 console.log({ filter });
+
+/*
+    Reduce => Pegar um array e transformá-lo
+    em outro tipo de dado;
+
+    Recebe dois argumentos:
+
+    Accumulator => Variável que navega entre todas as iterações;
+    Current(product) =>
+*/
+
+const reduce = array.reduce((accumulator, product) => {
+    return accumulator + (product.price * product.quantity);
+
+}, 0);
+// 0 => Valor inicial do Reduce(accumulator);
+
+console.log({ reduce });
