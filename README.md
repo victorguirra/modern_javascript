@@ -20,6 +20,12 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/victorguirra/modern_javascript">
 </p>
 
+<p align="center">
+  <a href="#rocket-topics">Topics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+
+
 <p align="center">This repository contains files referring to the Modern Javascript module of the <a href="https://jstack.com.br/">JStack</a> course!</p>
 
 ## :rocket: Topics
@@ -50,4 +56,8 @@
 
 ## :memo: License
 
-This repositoru is under the MIT license.
+This repository is under the MIT license.
+
+---
+
+Made with by Victor Guirra. :wave: [Talk to me!](https://www.linkedin.com/in/victorguirra/)
