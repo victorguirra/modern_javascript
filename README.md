@@ -22,7 +22,7 @@
 
 <p align="center">This repository contains files referring to the Modern Javascript module of the <a href="https://jstack.com.br/">JStack</a> course!</p>
 
-## 🚀 Topics
+## :rocket: Topics
 
 - This
 - Arguments
@@ -47,3 +47,7 @@
     - Reduce
 - Modules
 - Template String
+
+## :memo: License
+
+This repositoru is under the MIT license.
