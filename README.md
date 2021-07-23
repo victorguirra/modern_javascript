@@ -21,3 +21,29 @@
 </p>
 
 <p align="center">This repository contains files referring to the Modern Javascript module of the <a href="https://jstack.com.br/">JStack</a> course!</p>
+
+## 🚀 Topics
+
+- This
+- Arguments
+- Default Parameters
+- Destructuring
+- Rest Operator
+- Spread Operator
+- Template String
+- Promises
+    - Then & Catch
+    - Async & Await
+- Helpers
+    - Includes
+    - Starts With
+    - Ends With
+- Higher Order Functions
+    - Find
+    - FindIndex
+    - Some
+    - Every
+    - Map
+    - Filter
+    - Reduce
+- Modules
