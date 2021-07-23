@@ -30,7 +30,6 @@
 - Destructuring
 - Rest Operator
 - Spread Operator
-- Template String
 - Promises
     - Then & Catch
     - Async & Await
@@ -47,3 +46,4 @@
     - Filter
     - Reduce
 - Modules
+- Template String
